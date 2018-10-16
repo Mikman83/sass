@@ -1,0 +1,17 @@
+.features{
+
+
+	&__bottom {
+
+		@media (min-width: $screen-sm) {
+			display: flex;
+		}
+	}
+
+	&__item {
+		@media (min-width: $screen-sm) {
+			width: 33.33%;
+			position: 0 15px;
+		}
+	}
+}

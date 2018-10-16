@@ -1,0 +1,40 @@
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 22px 33px;
+  white-space: nowrap;
+  user-select: none;
+  text-align: center;
+  font-size: $font-size-sm;
+  font-family: $font-family;
+  line-height: $line-height;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: $border-right;
+  border: nono;
+  background-color: $color-main;
+  background-image: none;
+  cursor: pointer;
+  transition: all $transition-time;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: $color-main-light;
+  }
+
+  &--white {
+    background-color: #fff;
+    color: $text-color;
+      
+     &:hover,
+     &:focus {
+       color: $text-color;
+       background-color: $gray-lightest;
+     } 
+  }
+}
